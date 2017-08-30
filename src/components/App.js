@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
 import logo from '../logo.svg';
 import '../styles/App.css';
-import CreateLink from './CreateLink'
+import LinkList from './LinkList';
+import CreateLink from './CreateLink';
+import { Switch, Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <h2>Welcome to Instant</h2>
-        </div>
-          <CreateLink />
+    <div className='center w85'>
+      <div className='ph3 pv1 background-gray'>
+        <LinkList />
+        <CreateLink/>
       </div>
+    </div>
     );
   }
 }
