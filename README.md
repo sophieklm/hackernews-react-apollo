@@ -5,8 +5,8 @@ A Hacker News clone built using React, Apollo and GraphQL
 ## Getting Started
 
 ```
-$ git clone https://github.com/sophieklm/hackernews-react.git
-$ cd hackernews-react
+$ git clone https://github.com/sophieklm/hackernews-react-apollo.git
+$ cd hackernews-react-apollo
 $ npm install
 $ npm start
 ```
