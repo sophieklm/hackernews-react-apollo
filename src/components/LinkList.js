@@ -34,7 +34,7 @@ class LinkList extends Component {
 
 }
 
-const ALL_LINKS_QUERY = gql`
+export const ALL_LINKS_QUERY = gql`
   # 2
   query AllLinksQuery {
     allLinks {
